@@ -1,0 +1,8 @@
+c:\Assesment\employee-dashboard\MSSqlLocalDb\(localdb)\bin\Debug\MSSqlLocalDb.dacpac
+c:\Assesment\employee-dashboard\MSSqlLocalDb\(localdb)\obj\Debug\MSSqlLocalDb.sqlproj.AssemblyReference.cache
+c:\Assesment\employee-dashboard\MSSqlLocalDb\(localdb)\obj\Debug\Model.xml
+c:\Assesment\employee-dashboard\MSSqlLocalDb\(localdb)\obj\Debug\refactor.xml
+c:\Assesment\employee-dashboard\MSSqlLocalDb\(localdb)\obj\Debug\postdeploy.sql
+c:\Assesment\employee-dashboard\MSSqlLocalDb\(localdb)\obj\Debug\predeploy.sql
+c:\Assesment\employee-dashboard\MSSqlLocalDb\(localdb)\obj\Debug\MSSqlLocalDb.dll
+c:\Assesment\employee-dashboard\MSSqlLocalDb\(localdb)\obj\Debug\MSSqlLocalDb.pdb

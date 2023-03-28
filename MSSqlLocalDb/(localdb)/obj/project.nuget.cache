@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OFX9ODzS7zo4bEByg+TZu8RF/MgiyZK3T1EjVL5T1QkdOnj+ASkKqqC5A3pu4fIedTTfCAD6pWpr37BfDJ38XQ==",
+  "success": true,
+  "projectFilePath": "c:\\Assesment\\employee-dashboard\\MSSqlLocalDb\\(localdb)\\MSSqlLocalDb.sqlproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gam\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\gam\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net46\\1.0.0\\microsoft.netframework.referenceassemblies.net46.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
