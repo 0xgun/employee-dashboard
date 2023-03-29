@@ -49,11 +49,11 @@ You may also see any lint errors in the console.
 ## Screenshots 
 
 * Home Page
-
 ![Home Page](https://github.com/0xgun/employee-dashboard/blob/master/public/assets/UI.jpg)
 * Dashboard
 ![Dashboard](https://github.com/0xgun/employee-dashboard/blob/master/public/assets/dashboard.jpeg)
 * Filter
+![Filter](https://github.com/0xgun/employee-dashboard/blob/master/public/assets/filter.jpeg)
 
 
 
