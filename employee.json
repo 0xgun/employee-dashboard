@@ -1,18 +1,44 @@
 {
   "employees": [
     {
-      "id": 1,
-      "last_name": "Lopez",
+      "id": 41,
+      "last_name": "Keller",
+      "gender": "female",
+      "phone": "903-521-4220x53915",
+      "job_title": "HR Manager",
+      "salary": 9000.0,
+      "email": "vanessakeller40877@slingacademy.com",
+      "first_name": "Vanessa",
+      "age": 32,
+      "years_of_experience": 6,
+      "department": "Human Resource"
+  },
+    {
+      "id": 34,
+      "last_name": "Hogan",
       "gender": "male",
-      "phone": "+1-971-533-4552x1542",
-      "job_title": "Web Developer",
-      "salary": 6000.0,
-      "email": "joselopez0194@slingacademy.com",
-      "first_name": "Jose",
-      "age": 26,
+      "phone": "1138662041",
+      "job_title": "HR Manager",
+      "salary": 9500.0,
+      "email": "roberthogan33285@slingacademy.com",
+      "first_name": "Robert",
+      "age": 28,
+      "years_of_experience": 5,
+      "department": "Human Resource"
+  },
+    {
+      "id": 27,
+      "last_name": "Ellis",
+      "gender": "male",
+      "phone": "029.476.5817x88014",
+      "job_title": "HR Manager",
+      "salary": 8000.0,
+      "email": "thomasellis26289@slingacademy.com",
+      "first_name": "Thomas",
+      "age": 25,
       "years_of_experience": 2,
-      "department": "Product"
-    },
+      "department": "Human Resource"
+  },
     {
       "id": 2,
       "last_name": "Carter",
