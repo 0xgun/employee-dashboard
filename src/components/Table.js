@@ -98,18 +98,18 @@ export default function Table() {
         </thead>
         <tbody className="table-group-divider">
           {records.map((item) => (
-              <tr key={item.id}>
-                <td>{item.id}</td>
+            <tr key={item.id}>
+              <td>{item.id}</td>
 
-                <td>{item.first_name + " " + item.last_name}</td>
-                <td>{item.email}</td>
-                <td>{item.phone}</td>
+              <td>{item.first_name + " " + item.last_name}</td>
+              <td>{item.email}</td>
+              <td>{item.phone}</td>
 
-                <td>${item.salary}</td>
-                <td>{item.department}</td>
-                <td>{item.age}</td>
-              </tr>
-            ))}
+              <td>${item.salary}</td>
+              <td>{item.department}</td>
+              <td>{item.age}</td>
+            </tr>
+          ))}
         </tbody>
       </table>
       <nav>
