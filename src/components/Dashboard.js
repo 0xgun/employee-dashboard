@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { PolarArea, Radar, Bar } from "react-chartjs-2";
+import { PolarArea, Radar, Bar,Doughnut } from "react-chartjs-2";
 import { CategoryScale } from "chart.js";
 import Chart from "chart.js/auto";
 import axios from "axios";
@@ -62,13 +62,13 @@ export default function Dashboard() {
     <div>
       <div className="d-flex p-2">
         <div
-          class="card"
+          className="card"
           style={{
             width: "50%",
           }}
         >
-          <div class="card-body">
-            <h5 class="card-title ">Employee </h5>
+          <div className="card-body">
+            <h5 className="card-title ">Employee </h5>
             <Bar
               data={state}
               options={{
@@ -85,7 +85,7 @@ export default function Dashboard() {
             />
           </div>
           <div
-            class="card"
+            className="card"
             style={{
               width: "50%",
             }}
@@ -93,13 +93,13 @@ export default function Dashboard() {
         </div>
 
         <div
-          class="card"
+          className="card"
           style={{
             width: "50%",
           }}
         >
-          <div class="card-body">
-            <h5 class="card-title ">Employee Salary </h5>
+          <div className="card-body">
+            <h5 className="card-title ">Radar Chart </h5>
             <Radar
               data={state}
               options={{
@@ -116,20 +116,20 @@ export default function Dashboard() {
             />
           </div>
           <div
-            class="card"
+            className="card"
             style={{
               width: "50%",
             }}
           ></div>
         </div>
         <div
-          class="card"
+          className="card"
           style={{
             width: "50%",
           }}
         >
-          <div class="card-body">
-            <h5 class="card-title ">Employee Salary </h5>
+          <div className="card-body">
+            <h5 className="card-title ">Employee Salary </h5>
             <PolarArea
               data={state}
               options={{
@@ -146,12 +146,71 @@ export default function Dashboard() {
             />
           </div>
           <div
-            class="card"
+            className="card"
             style={{
               width: "50% ",
             }}
           ></div>
         </div>
+
+      </div>
+      <div>
+        <div
+
+          className="card"
+          style={{
+            width: "50%",
+          }}
+        >
+          <div className="card-body">
+            <h5 className="card-title ">Employee Salary by Age </h5>
+            <Doughnut
+
+              data={state}
+              options={{
+                title: {
+                  display: true,
+                  text: "Average Salary by Age",
+                  fontSize: 20,
+                },
+                legend: {
+                  display: true,
+                  position: "right",
+                },
+              }}
+            />
+
+            </div>
+            </div>
+      </div>
+      <div>
+        <div
+
+          className="card"
+          style={{
+            width: "50%",
+          }}
+        >
+          <div className="card-body">
+            <h5 className="card-title ">Employee Salary by Age </h5>
+            <Doughnut
+
+              data={state}
+              options={{
+                title: {
+                  display: true,
+                  text: "Average Salary by Age",
+                  fontSize: 20,
+                },
+                legend: {
+                  display: true,
+                  position: "right",
+                },
+              }}
+            />
+
+            </div>
+            </div>
       </div>
     </div>
   );

@@ -1,6 +1,34 @@
-# Getting Started with Create React App
+# Empoyee DashBoard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+
+This is a simple employee dashboard that allows you to view the employee data in a table , filter, and sort the employee according to their attributes.
+
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+## Installation
+
+To install necessary dependencies, run the following command:
+
+```
+npm i
+```
+
+## Usage
+
+This is a simple employee dashboard that allows you to view the employee data in a table , filter, and sort the employee according to their attributes.
+
+
+## License
+
+This project is licensed under the MIT license.
+
+
+
+
 
 ## Available Scripts
 

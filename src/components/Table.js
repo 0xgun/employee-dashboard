@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 export default function Table() {
+  const [searchTerm, setSearchTerm] = useState("");
   const [Sort, setSort] = useState("Ascending");
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(10);
@@ -60,6 +61,37 @@ export default function Table() {
 
   return (
     <div>
+      <form className="container">
+        <div
+          className="form-group"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "80%",
+            margin: "auto",
+            marginTop: "30px",
+          }}
+        >
+          <input
+            type="search"
+            className="form-control"
+            id="exampleInputPassword1"
+            placeholder="Filter.."
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              width: "80%",
+              margin: "auto",
+              marginTop: "30px",
+            }}
+            onChange={(event) => {
+              setSearchTerm(event.target.value);
+            }}
+          />
+        </div>
+      </form>
       <table
         className="table table-striped table-hover "
         style={{
@@ -97,19 +129,37 @@ export default function Table() {
           </tr>
         </thead>
         <tbody className="table-group-divider">
-          {records.map((item) => (
-            <tr key={item.id}>
-              <td>{item.id}</td>
+          {records
+            .filter((val) => {
+              if (searchTerm === "") {
+                return val;
+              } else if (
+                val.first_name
+                  .toLowerCase()
+                  .includes(searchTerm.toLowerCase()) ||
+                val.last_name
+                  .toLowerCase()
+                  .includes(searchTerm.toLowerCase()) ||
+                val.email.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                val.department.toLowerCase().includes(searchTerm.toLowerCase())
+              ) {
+                return val;
+              }
+              return false;
+            })
+            .map((item) => (
+              <tr key={item.id}>
+                <td>{item.id}</td>
 
-              <td>{item.first_name + " " + item.last_name}</td>
-              <td>{item.email}</td>
-              <td>{item.phone}</td>
+                <td>{item.first_name + " " + item.last_name}</td>
+                <td>{item.email}</td>
+                <td>{item.phone}</td>
 
-              <td>${item.salary}</td>
-              <td>{item.department}</td>
-              <td>{item.age}</td>
-            </tr>
-          ))}
+                <td>${item.salary}</td>
+                <td>{item.department}</td>
+                <td>{item.age}</td>
+              </tr>
+            ))}
         </tbody>
       </table>
       <nav>
