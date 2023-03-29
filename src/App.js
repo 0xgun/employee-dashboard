@@ -1,6 +1,5 @@
 import "./App.css";
 import { Switch, Route } from "react-router-dom";
-
 import Dashboard from "./components/Dashboard";
 import Navbar from "./components/Navbar";
 import Table from "./components/Table";
