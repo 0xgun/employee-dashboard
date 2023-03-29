@@ -2,15 +2,25 @@
 
 ## Description
 
-This is a simple employee dashboard that allows you to view the employee data in a table , filter, and sort the employee according to their attributes.
+This is a simple employee dashboard that allows you to view the employee data in a table , filter, and sort the employee's data according to their attributes i.e Name,Age,Salary.
+
+## Techstack used
+  
+* React
+* Node
+* Rest API
+* Bootstrap
+* CSS
+
 
 ## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#license)
-* [Screenshots](#screenshots)
 * [Api](#api)
+* [Screenshots](#screenshots)
+* [License](#license)
+
 ## Installation
 
 To install necessary dependencies, run the following command:
@@ -21,9 +31,7 @@ npm i
 
 ## Usage
 
-This is a simple employee dashboard that allows you to view the employee data in a table , filter, and sort the employee according to their attributes.
-
-
+This is a React Application  that allows you to view the employee data in a table , filter, and sort the employee according to their attributes.
 
 ## Available Scripts
 
@@ -38,7 +46,15 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 
-## Screenshots
+## Screenshots 
+
+* Home Page
+
+![Home Page](https://github.com/0xgun/employee-dashboard/blob/master/public/assets/UI.jpg)
+* Dashboard
+![Dashboard](https://github.com/0xgun/employee-dashboard/blob/master/public/assets/dashboard.jpeg)
+* Filter
+
 
 
 
@@ -74,11 +90,14 @@ You may also see any lint errors in the console.
     }
     ]
     ```
+    * You can also test the API using Postman
     
-    ![api](https://github.com/0xgun/employee-dashboard/blob/master/public/assets/postman.png)
+    ![Api Response](https://github.com/0xgun/employee-dashboard/blob/master/public/assets/postman.png)
+   
+    
 
 
-* You can also test the API using Postman
+
 
 
 

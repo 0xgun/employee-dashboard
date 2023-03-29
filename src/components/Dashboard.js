@@ -68,7 +68,7 @@ export default function Dashboard() {
           }}
         >
           <div className="card-body">
-            <h5 className="card-title ">Employee </h5>
+            <h5 className="card-title ">Employee Salary </h5>
             <Bar
               data={state}
               options={{
@@ -99,7 +99,7 @@ export default function Dashboard() {
           }}
         >
           <div className="card-body">
-            <h5 className="card-title ">Radar Chart </h5>
+            <h5 className="card-title ">Radar Chart for Average Salary by Age </h5>
             <Radar
               data={state}
               options={{
